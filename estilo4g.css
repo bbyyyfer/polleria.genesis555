@@ -15,6 +15,7 @@ body {
   font-size: 200%;
   color: #333;
   padding: 10%;
+  text-align: justify;
 }
 /* Clases de estilos para las Imágenes de Misión y Visión */
 .vision-contenedor {
@@ -23,26 +24,32 @@ body {
   font-size: 200%;
   color: #333;
   padding: 10%;
+  text-align: justify;
 }
 
 .mission-imagen {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin-right: 10px;
-  padding: 90px 50px;
-  
+  padding: 90px 50px none;
+  border-radius: 3%;
 }
 .vision-imagen {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin-right: 10px;
-  padding: 40px 50px;
-  
+  padding: 40px 50px none;
+  border-radius: 3%;
 }
 /* Clases de estilo para los Párrafos */
 .parrafo{
   color: #333;
   margin: 10%;
+}
+.fondo{
+  box-shadow:5px 6px 6px 5px #0000006c;
+  padding: 10px;
+  border-radius: 5%;
 }
 /* Clases de estilo para los Títulos */
 .titulo {
@@ -50,7 +57,11 @@ body {
   text-align: center;
   margin-top: 3%;
 }
-
+.titulos-tamaños {
+  display: flex;
+  font-size: 140%;
+  
+}
 h3 {
   display: flex;
   font-size: 150%;
