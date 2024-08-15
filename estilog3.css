@@ -1,44 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  header {
-    background-color: #472D48;
-    color: #fff;
-    padding: 1px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .nav-ul {
-    list-style: none;
-    display: flex;
-    padding: 30px;
-  }
-  .nav-li {
-    margin-right: 20px;
-    display: flex;
-  }
-  .a {
-    color: #F68961;
-    font-size: 22px;
-    font-weight: bold;
-    text-decoration: none;
-    
-  }
-  header a:hover{
-    color: #FABBA5;
-  } */
-/* aside {
-  float: right;
-  padding: 2px;
-  margin-right: 2px;
-} */
-
-/* body {
-  background-color: #FEEEE8;
-} */
 
 .promo {
   background-color: #540457;
@@ -51,7 +10,8 @@
   color: #F68961;
   text-align: center;
   padding: 20px;
-  font-size: 20px
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 
@@ -60,15 +20,6 @@
   text-align: left;  
   font-size: 25px
 }
-
-/* .card-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 20px;
-  color: #efda6e
-} */
 
 .card-promocion {
   width: 65%;
