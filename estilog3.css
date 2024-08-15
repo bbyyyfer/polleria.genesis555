@@ -88,6 +88,13 @@
 .img-cupon:hover{
   transform: translateY(-5px);
 }
+.audio1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 40%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 14px;
+}
 
 @media (min-width:768px) {
   .card-promocion {

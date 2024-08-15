@@ -66,6 +66,13 @@ h3 {
   font-size: 150%;
   Padding: 5%;
 }
+.centrado{
+  width: 50%;       
+  margin: 0 auto;
+  background-color:#472D48;
+  width: fit-content;
+  padding: 10px;
+}
 /* Clases de estilo para el Pie de Página (Footer) */
 footer {
   background-color: #472D48;

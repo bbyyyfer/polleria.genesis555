@@ -77,37 +77,58 @@
                 </li>
             </ul>
         </div>
-        
+        <!-- <header>
+            <h1><img src="img/logo.png" width="90"/>
+            </h1>
+            <nav>
+                <aside>
+                    <a target="_blank" href="https://www.tiktok.com/@icapolleriagenesis?_t=8nOBZTZyQFB&_r=1"><img
+                            src="img/Vector.png" alt="icono" width="18" /> </a>
+                    <a target="_blank" href="https://wa.me/c/51949355027"><img src="img/Vector (1).png" alt="icono"
+                            width="18" /></a>
+                    <a target="_blank"
+                        href="https://www.facebook.com/p/Polleria-G%C3%A9nesis-Ica-61553416058785/"><img
+                            src="img/Vector (2).png" alt="icono" width="18"></a>
+                </aside>
+                <ul class="nav-ul">
+                    <li class="nav-li"><a class="a" href="index.html">Inicio</a></li>
+                    <li class="nav-li"><a class="a" href="Cartag.html">Carta</a></li>
+                    <li class="nav-li"><a class="a" href="Promocionesg.html">Promociones</a></li>
+                    <li class="nav-li"><a class="a" href="Nosotrosg.html">Nosotros</a></li>
+                    <li class="nav-li"><a class="a" href="Contactog.html">Contacto</a></li>
+                    <li class="nav-li"><a class="a" href="Reservasg.html">Reservas</a></li>
+                </ul>
+            </nav>
+        </header> -->
     </div>
 
-    <div class="container-fluid">
-        <h1 class="titulo fw-normal">Polleria Genesis cuenta con profesionales en la cocina altamente calificados</h1>
+    <div class="titulo">
+        <h1>Polleria Genesis cuenta con profesionales en la cocina altamente calificados</h1>
     </div>
-    
-    <div class="navbar-nav flex-row flex-wrap ms-md-auto">
+    <section class="row px-2">
         <div class="col-12 col-md-6">
-            <div class="mission-contenedor">
-                <p class="parrafo fondo"><span class="fw-light titulos-tamaños">Misión</span> <br> <br> En Pollería Génesis, nos comprometemos a ofrecer productos frescos, sabrosos y de alta calidad. Valoramos la frescura, la calidad y la satisfacción del cliente. Nuestra misión es proporcionar una experiencia culinaria excepcional con un servicio amable y eficiente, satisfaciendo las necesidades y gustos de nuestros clientes. Nos esforzamos por ser un referente en la comida rápida, ofreciendo productos deliciosos y saludables a precios accesibles.</p>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 row align-items-center">
             <img src="img/Annotation 2024-06-23 211004.png" alt="Imagen Misión" class="mission-imagen">
         </div>
-    </div>
-    
-    <div class="navbar-nav flex-row flex-wrap ms-md-auto">
         <div class="col-12 col-md-6">
-            <div class="vision-contenedor">
-                <p class="parrafo fondo"><span class="fw-light titulos-tamaños">Visión</span> <br> <br> Nuestra visión es expandirnos estratégicamente con nuevas sucursales, convirtiéndonos en un referente en la industria del pollo. Nos esforzamos por ofrecer frescura y calidad, manteniendo la excelencia en el servicio al cliente y la innovación culinaria. Aspiramos a ser reconocidos por nuestra deliciosa experiencia gastronómica y el impacto positivo en cada comunidad donde operamos.</p>
+            <div class="mission-contenedor">
+            <h3>Misión</h3>
+            <br> En Pollería Génesis, nos comprometemos a ofrecer productos frescos, sabrosos y de alta calidad. Valoramos la frescura, la calidad y la satisfacción del cliente. Nuestra misión es proporcionar una experiencia culinaria excepcional con un servicio amable y eficiente, satisfaciendo las necesidades y gustos de nuestros clientes. Nos esforzamos por ser un referente en la comida rápida, ofreciendo productos deliciosos y saludables a precios accesibles.</p>
+        </div>
+        </div>
+    </section>
+    <section class="row px-2">
+        <div class="col-12 col-md-6">
+        <img src="img/Annotation 2024-06-23 211055.png" alt="Imagen Visión" class="vision-imagen">
             </div>
-        </div>
-        <div class="col-12 col-md-6 row align-items-center">
-            <img src="img/Annotation 2024-06-23 211055.png" alt="Imagen Visión" class="vision-imagen">
-        </div>
-    </div>
+                <div class="col-12 col-md-6">
+                    <div class="vision-contenedor">
+                <h3>Visión</h3>
+                <br> Nuestra visión es expandirnos estratégicamente con nuevas sucursales, convirtiéndonos en un referente en la industria del pollo. Nos esforzamos por ofrecer frescura y calidad, manteniendo la excelencia en el servicio al cliente y la innovación culinaria. Aspiramos a ser reconocidos por nuestra deliciosa experiencia gastronómica y el impacto positivo en cada comunidad donde operamos.</p>
+                </div>
+            </div>
+    </section>
     <div class="centrado">
-        <!-- Start VideoLightBox.com BODY section -->
-
+    <!-- Start VideoLightBox.com BODY section -->
 	<div class="videogallery">
 
         <a class="voverlay" href="http://www.youtube.com/v/Ik_jHB1Cmvk?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer" title="El Secreto del Pollo a la Brasa: ¡Descubre la Receta y Técnica para un Pollo Perfectamente Asado!&quot;"><img src="Nosotrosg_videolb/thumbnails/0.png" alt="El Secreto del Pollo a la Brasa: ¡Descubre la Receta y Técnica para un Pollo Perfectamente Asado!&quot;" /><span></span></a><span class="videolb"><a href="http://videolightbox.com">html video player</a> by VideoLightBox.com v3.1</span>
@@ -120,8 +141,8 @@
     
         <!-- End VideoLightBox.com BODY section -->
     </div>
-    <footer class="d-lg-flex justify-content-lg-around">
-        <div class="footer-text">
+    <footer class="d-lg-flex justify-content-lg-between">
+        <div>
           <ul>
             <p>Acerca de Nosotros</p>
             <li><a href="Nosotrosg.html">Misión y visión</a></li>
@@ -129,7 +150,7 @@
             <li><a href="Reservasg.html">Reservas</a></li>
           </ul>
         </div>
-        <div class="footer-text">
+        <div>
           <ul>
             <p>Contacto</p>
             <li><img src="img/icono ubicación.png" width="15" />Av. Panama 1001, Tinguiña, Ica</li>
