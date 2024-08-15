@@ -44,7 +44,6 @@ body {
 /* Clases de estilo para los Párrafos */
 .parrafo{
   color: #333;
-  margin: 10%;
 }
 .fondo{
   box-shadow:5px 6px 6px 5px #0000006c;
@@ -53,7 +52,7 @@ body {
 }
 /* Clases de estilo para los Títulos */
 .titulo {
-  font-size: 220%;
+  font-size: 300%;
   text-align: center;
   margin-top: 3%;
 }

@@ -66,68 +66,67 @@
         </div>
 
     </div>
-    <div class="container mt-5">
+    <div class="container-fluid mt-5"> 
+        <div class="card">
         <form>
-            <div class="flex-column mb-4">
+            <div class="flex-column mb-3">
             <h1 class="text-center">Reservas</h1>
-            <div class="form-group mb-4">
-                <label for="nombre">Nombre completo:</label>
-                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
-            </div>
-            <div class="form-group mb-4">
-                <label for="dni">Número de DNI:</label>
-                <input type="text" class="form-control" id="dni" name="dni" placeholder="DNI" required>
-            </div>
-            <div class="form-group mb-4">
-                <label for="correo">Correo electrónico:</label>
-                <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo" required>
-            </div>
-            <div class="form-group mb-4">
-                <label for="fecha">Elige una fecha:</label>
-                <div class="d-flex">
-                    <select class="form-control mr-2 mb-4" id="dia" name="dia" required>
-                        <option value="">Día</option>
-                        <!-- Options for days -->
-                        <script>
-                            for (let i = 1; i <= 31; i++) {
-                                document.write('<option value="' + i + '">' + i + '</option>');
-                            }
-                        </script>
-                    </select>
-                    <select class="form-control mb-4" id="mes" name="mes" required>
-                        <option value="">Mes</option>
-                        <option value="01">Enero</option>
-                        <option value="02">Febrero</option>
-                        <option value="03">Marzo</option>
-                        <option value="04">Abril</option>
-                        <option value="05">Mayo</option>
-                        <option value="06">Junio</option>
-                        <option value="07">Julio</option>
-                        <option value="08">Agosto</option>
-                        <option value="09">Septiembre</option>
-                        <option value="10">Octubre</option>
-                        <option value="11">Noviembre</option>
-                        <option value="12">Diciembre</option>
-                    </select>
+            <div class="cuadro">
+                <div class="form-group mb-3">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
                 </div>
-            </div>
-            <div class="form-group mb-4">
-                <label for="num-personas">Ingresa el número de personas:</label>
-                <input type="number" class="form-control" id="num-personas" name="num-personas" placeholder="No. de personas" required>
-            </div>
-            <div class="form-group mb-4">
-                <label for="mensaje">Mensaje:</label>
-                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Ingresa un mensaje opcional" rows="4"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block button">Reservar</button>
+                <div class="form-group mb-3">
+                    <label for="dni">Número de DNI:</label>
+                    <input type="text" class="form-control" id="dni" name="dni" placeholder="DNI" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo" required>
+                </div>
+                <div class="form-group mb-1">
+                    <label for="fecha">Elige una fecha:</label>
+                    <div class="d-flex">
+                        <select class="form-control mr-2 mb-2" id="dia" name="dia" required>
+                            <option value="">Día</option>
+                            <!-- Options for days -->
+                            <script>
+                                for (let i = 1; i <= 31; i++) {
+                                    document.write('<option value="' + i + '">' + i + '</option>');
+                                }
+                            </script>
+                        </select>
+                        <select class="form-control mb-2" id="mes" name="mes" required>
+                            <option value="">Mes</option>
+                            <option value="01">Enero</option>
+                            <option value="02">Febrero</option>
+                            <option value="03">Marzo</option>
+                            <option value="04">Abril</option>
+                            <option value="05">Mayo</option>
+                            <option value="06">Junio</option>
+                            <option value="07">Julio</option>
+                            <option value="08">Agosto</option>
+                            <option value="09">Septiembre</option>
+                            <option value="10">Octubre</option>
+                            <option value="11">Noviembre</option>
+                            <option value="12">Diciembre</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="num-personas">Ingresa el número de personas:</label>
+                    <input type="number" class="form-control" id="num-personas" name="num-personas" placeholder="No. de personas" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Ingresa un mensaje opcional" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block button">Reservar</button>
             </div>
         </form>
+        </div>
+        <br>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    
     <footer class="d-lg-flex justify-content-lg-around">
         <div class="footer-text">
           <ul>
@@ -164,5 +163,8 @@
         </div>
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
