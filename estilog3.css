@@ -91,9 +91,13 @@
 .audio1{
   margin-top: 5%;
   margin-bottom: 5%;
-  margin-left: 40%;
+  margin-left: 20%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 14px;
+  margin-right: 0;
+}
+.row{
+  --bs-gutter-x: 0;
 }
 
 @media (min-width:768px) {
@@ -110,4 +114,12 @@
     width: 80%;
   }
   
+}
+@media (min-width: 481px) and (max-width: 767px) { 
+  body{
+    width: 100%;
+  }
+  .audio1{
+    margin-left: 20%;
+  }
 }
