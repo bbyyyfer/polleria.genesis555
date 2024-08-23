@@ -129,7 +129,7 @@ footer ul {
     justify-self: center;
   }
   .card h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 40px;
     font-weight: bold;
   }
@@ -153,6 +153,9 @@ footer ul {
     margin-bottom: 40px;
     font-weight: bold;
     display: flex;
+  }
+  .combos-img{
+    width: min-content;
   }
 }
 /* Estilos responsive para dispositivos Mobiles pequeños */
